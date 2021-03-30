@@ -1,3 +1,4 @@
+//la version antigua estaba pensada para el cifrado de 3*6, en esta ya se puede cifrar y descifrar cualquier oracion, sin embargo quiero hacerle mejoras
 #include <iostream>
 #include <string>
 using namespace std;
@@ -29,7 +30,7 @@ void Algoritmo::Emisor(string text)
 
 	cout << scrpt << endl;
 }
-void Algoritmo::Receptor(string text)
+void Algoritmo::Receptor(string text) //en lugar de texto deberia recibir el scrpt, pero este es privado, entonces si solo queremos descifrar tendriamos que darle un valor al scrpt
 {
 	cout << scrpt << endl;
 
@@ -51,8 +52,8 @@ int main(int argc, char** argv)
 	
 	
 	Algoritmo Script;
-	Script.Emisor(text);
-	Script.Receptor(text);
+	Script.Emisor(text); //aqui llamo a ambas funciones, sin embargo solo quiero llamar a una Comunicar() y que en esta llame a esas dos
+ 	Script.Receptor(text);
 
 	return 0;
 }
