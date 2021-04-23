@@ -4,20 +4,21 @@ using namespace std;
 class caesar
 {   
 	private: 
-		int clave = 11;
+		int clave;
 		string scrpt, text, scrpt_copy;
 		//char alfabeto[26] = {'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'};
 		string alfabeto = "abcdefghijklmnopqrstuvwxyz";
 		int a, n, q, r;
 	public:
-		caesar(string);
+		caesar(string,int);
 		void emisor(string);
 		void receptor(string);
 		void intruso(string);
 		
 };
-caesar::caesar(string text)
+caesar::caesar(string text, int clave)
 {
+	this -> clave = clave;
 	this -> text = text;
 	scrpt = text;
 	n = alfabeto.length();
@@ -120,10 +121,14 @@ void caesar::intruso(string scrpt_copy)
 }
 int main()
 {
-	string text = "mira que bonito tiene la chinita los ojitos"; //A)
+	int clave;
+	string text;
+	//string text = "mira que bonito tiene la chinita los ojitos"; //A)
 	//string text = "t wzde xj xtyo  wzde lww xj xzypj"; //B)
+	getline(cin,text);
+	cout << "clave: "; cin >> clave; cout << endl;
 	
-	caesar mensaje(text);
+	caesar mensaje(text,clave);
 	
 	return 0;
 }
