@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1624742733 source:c:\users\user\documents\ucsp\iii\álgebra i\finalpaperprimerandom\main.cpp
+	<bits/stdc++.h>
+	<windows.h>
+	<chrono>
+	<psapi.h>
+	<bitset>
+	<NTL/ZZ.h>
+

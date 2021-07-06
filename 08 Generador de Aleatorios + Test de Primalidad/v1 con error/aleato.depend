@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1624744762 source:c:\users\user\documents\ucsp\iii\álgebra i\aleato\main.cpp
+	<bits/stdc++.h>
+	<Windows.h>
+	<stdio.h>
+	<vector>
+	<string>
+	<chrono>
+	<psapi.h>
+	<bitset>
+	<NTL/ZZ.h>
+
