@@ -1,0 +1,39 @@
+# depslib dependency file v1.0
+1624597687 source:c:\users\win 10\documents\ucsp\iii ciclo\algebra abstracta\rsa_bloques_v2\src\cryptomath.cpp
+	"cryptomath.h"
+
+1624597687 c:\users\win 10\documents\ucsp\iii ciclo\algebra abstracta\rsa_bloques_v2\include\cryptomath.h
+	<iostream>
+	<NTL/ZZ.h>
+	<stdlib.h>
+	<time.h>
+
+1624597967 source:c:\users\win 10\documents\ucsp\iii ciclo\algebra abstracta\rsa_bloques_v2\src\prime_generator.cpp
+	"prime_generator.h"
+
+1624597856 c:\users\win 10\documents\ucsp\iii ciclo\algebra abstracta\rsa_bloques_v2\include\prime_generator.h
+	<iostream>
+	<vector>
+	<windows.h>
+	<psapi.h>
+	<bitset>
+	<NTL/ZZ.h>
+	<string>
+	"cryptomath.h"
+
+1624600416 source:c:\users\win 10\documents\ucsp\iii ciclo\algebra abstracta\rsa_bloques_v2\src\rsa_bloques.cpp
+	"rsa_bloques.h"
+
+1624599532 c:\users\win 10\documents\ucsp\iii ciclo\algebra abstracta\rsa_bloques_v2\include\rsa_bloques.h
+	<sstream>
+	<iostream>
+	<fstream>
+	<string>
+	<NTL/ZZ.h>
+	"cryptomath.h"
+	"prime_generator.h"
+
+1624601574 source:c:\users\win 10\documents\ucsp\iii ciclo\algebra abstracta\rsa_bloques_v2\main.cpp
+	<iostream>
+	"rsa_bloques.h"
+

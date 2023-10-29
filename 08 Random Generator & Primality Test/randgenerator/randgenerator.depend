@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1623909642 source:c:\users\user\documents\ucsp\iii\álgebra i\randgenerator\main.cpp
+	<iostream>
+	<NTL/ZZ.h>
+	<bits/stdc++.h>
+

@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1622225596 source:c:\users\user\documents\rsa_cledybecerra\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<math.h>
+	<string>
+	<sstream>
+	<random>
+	<NTL/ZZ.h>
+
+1624601378 source:c:\users\user\documents\ucsp\iii\álgebra i\proyectos\07 rsa\rsa_versions\rsa_cledybecerra\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<math.h>
+	<string>
+	<sstream>
+	<random>
+	<NTL/ZZ.h>
+
